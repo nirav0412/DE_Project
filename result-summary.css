@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.container{
+    position: relative;
+    top: 134px;
+    left: 20px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 91px 3px #5e43ab59;
+    height: 500px;
+    display: flex;
+    width: 700px;
+}
+
+.result{
+    background: linear-gradient(180deg, rgba(109,75,201,1) 0%, rgba(36,33,202,1) 100%);
+    width: 350px;
+    height: 500px;
+    border-radius: 25px;
+}
+
+.circle {
+    height: 195px;
+    width: 175px;
+    position: relative;
+    top: 50px;
+    left: 73px;
+    display: table-cell;
+    text-align: center;
+    vertical-align:middle;
+    border-radius: 50%; /* may require vendor prefixes */
+    background: linear-gradient(360deg, rgba(109,75,201,1) 0%, rgba(36,33,202,1) 130%);
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+  }
+  .out{
+    margin-top: -20px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.863);
+  }
+  #line-2{
+    
+  }
+  .great{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 70px;
+    text-align: center;
+  }
+.people{
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.721);
+    text-align: center;
+}
+.summary{
+    margin: 0 20px 0 20px;
+}
+.s-head{
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.742);
+    font-weight: 600;
+    line-height: 70px;
+}
+.sum-main{
+    padding: 15px;
+    min-width: 300px;
+    border-radius: 20px;
+    background-color: hsla(0, 100%, 50%, 0.10);
+    margin-bottom: 20px;
+}
+.sum-1{
+    font-size: 17px;
+    font-weight: 600;
+    color: #ff0000c5;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.sum-1 p{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+#sum-2{
+    background-color: hsla(39, 100%, 52%, 0.2);
+}
+#sum-3{
+    background-color: hsla(166, 100%, 37%, 0.2);
+}
+#sum-4{
+    background-color: hsla(234, 85%, 45%, 0.2);
+}
+.submit button{
+    margin-top: 20px;
+    padding: 15px 145px;
+    border-radius: 30px;
+    border: transparent;
+    color: white;
+    font-size: 17px;
+    background-color: hsl(224, 30%, 27%);
+}
+
+/* Inputer Number Arrow Hide Function */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

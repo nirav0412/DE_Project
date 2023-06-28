@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result Summary</title>
+    <link rel="stylesheet" href="result-summary.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>Marks you got :
+        <input type="number" id="marksin">
+        <br><br> Total Marks <input id="totalmark" type="number"><br>
+        <br> Reaction <input id="react" type="number"><br>
+        <br> Memory <input id="memory" type="number"><br>
+        <br> Verbal <input id="verbal" type="number"><br>
+        <br> Visual <input id="visual" type="number"><br>
+        
+        <br><button id="add" class="btn btn-primary">Get a Design</button>
+    </div>
+    <div class="container">
+        <div class="result">
+            <div class="round-score">
+              <p style="z-index: 0;" class="circle" id="score">75 </p>
+              <p class="out" style="text-align: center;z-index: 2;position: relative;" id="total" >out of 100</p>
+            </div><br><br><br><br><br><br><br>
+            <p id="compi" class="great">Great</p>
+            <p id="line-2" class="people">You scored higher than 65% of <br> people who have taken <br> this test </p>
+        </div>
+        <div class="summary">
+            <br><br>
+            <p class="s-head">Summary</p>
+            <div class="sum-main">
+                <div class="sum-1">
+                    <div>Reaction</div>
+                    <div id="react-temp" class="sum-1"><p>80 <span>/</span><span>100</span></p></div>
+                </div>
+            </div>
+            <div id="sum-2"  class="sum-main">
+                <div style="color: hsl(39, 100%, 30%);" class="sum-1">
+                    <div>Memory</div>
+                    <div id="memory-temp"><p>80 <span>/</span><span>100</span></p></div>
+                </div>
+            </div>
+            <div id="sum-3" class="sum-main">
+                <div style="color: hsl(166, 100%, 17%);" class="sum-1">
+                    <div>Verbal</div>
+                    <div id="verbal-temp"><p>80 <span>/</span><span>100</span></p></div>
+                </div>
+            </div>
+            <div id="sum-4" class="sum-main">
+                <div style="color: hsl(234, 95%, 45%);" class="sum-1">
+                    <div>Visual</div>
+                    <div id="visual-temp"><p>80 <span>/</span><span>100</span></p></div>
+                </div>
+            </div>
+            <div class="submit">
+                <button>Yayy!!</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Java Script File -->
+    <script src="result-summary.js"></script>
+</body>
+</html>
